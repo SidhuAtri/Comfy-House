@@ -32,10 +32,11 @@ body {
 }
 .navbar-center {
   width: 100%;
-  max-width: 1170px;
+  height: 100%;    
   margin: 0 auto;
   display: flex;
   align-items: center;
+  background-color: bisque;  
   justify-content: space-between;
   padding: 0 1.5rem;
 }
@@ -60,7 +61,7 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
-  background: url("./images/hero-bcg.jpeg") center/cover no-repeat;
+  background: url("./images/hero-bcg.jpeg") center/cover no-repeat;   
   display: flex;
   align-items: center;
   justify-content: center;
@@ -70,6 +71,10 @@ body {
   background: rgba(255, 255, 255, 0.8);
   display: inline-block;
   padding: 2rem;
+  -webkit-box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.31);
+-moz-box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.31);
+box-shadow: 0px 1px 12px 1px rgba(0,0,0,0.31);
+Copy Text    
 }
 .banner-title {
   font-size: 3.4rem;
